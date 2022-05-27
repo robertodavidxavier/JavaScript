@@ -1,3 +1,27 @@
+function botao(){
+    document.getElementById("agradecimento").innerHTML = "<b>Foi boa!</b>";
+}
+function redirecionar() {
+    window.open("https://github.com/robertodavidxavier");
+    //window.location.href = "https://github.com/robertodavidxavier";
+}
+function trocar(elemento){
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
+    elemento.innerHTML = "Obrigado por passar o mouse";   
+}
+function voltar(elemento){
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+    elemento.innerHTML = "Passe o mouse aqui";
+}
+function load() {
+    alert("Página carregada!");
+}
+
+function funcaoChange(elemento) {
+    console.log(elemento.value);
+}
+
+/*
 var validar = 0;
 function validaIdade(idade){
     
@@ -11,12 +35,7 @@ function validaIdade(idade){
 var idade = prompt("Qual a sua idade?")
 validaIdade(idade);
 console.log(validar);
-
-
-
-
-
-
+*/
 
 /*
 function soma(n1, n2) {
